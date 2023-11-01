@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Springs</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        window.addEventListener('load', () => {
+            const user = localStorage.getItem('FIRST NAME');
+            document.getElementById("login-name").innerHTML = user;
+        })
+    </script>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <a href="#"><img src="img/logo1.png" class="logo" alt="serenity logo"></a>
+        </div>
+        <div class="nav-right">
+            <a href="#home" class="nav-right">Home</a>
+            <a href="#dining" class="nav-right">Cuisine</a>
+            <a href="#explore" class="nav-right">Cabins</a>
+            <a href="#about" class="nav-right">About</a>
+        </div>
+    </div>
+    <div class="home" id="home">
+        <h1>Hey! <span id="login-name" /></h1>
+        <h2>Welcome to Serenity Springs</h2>
+    </div>
+    <div class="section-4 sp">
+        <div class="div-block-70">
+            <div class="div-block-71">
+                <h2 class="heading-21">
+                    Serenity Springs <br>
+                    <strong class="strong">Your Perfect Getaway.</strong>
+                </h2>
+                <div class="text-block-17 sm">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat laudantium pariatur tempora.
+                    Quaerat numquam quis omnis eos? Eaque aliquid reiciendis rem non quod nihil, perspiciatis eos
+                    possimus corrupti natus sint.
+                </div>
+            </div>
+            <div class="div-block-83">
+                <img src="img/serenity.png" width="600px">
+            </div>
+        </div>
+        <div class="tag">
+            <div class="tag-text">
+                <h2>Experience the finest in luxury.</h2>
+                <p>
+                    Relax, recharge, and reconnect. <br>
+                    Experience the best of hospitality.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="services">
+        <div class="dining" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/dining.png);">
+            <h3>Cuisine</h3>
+            <a href="#dining" class="button">View Dining Options</a>
+        </div>
+        <div class="cabin" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/hotel3.png);">
+            <h3>Cabins</h3>
+            <a href="#explore" class="button">Explore Our Cabins</a>
+        </div>
+    </div>
+    <h1
+        style="font-size: 28px; background-color: #235a52; color: white; margin-top: 5px; padding: 15px 100px; font-family: Playfair Display, sans-serif; letter-spacing: 2px; text-align: center;">
+        Feel Every Essence of Nature with Us!</h1>
+    <div class="fullbleed-image">
+        <img src="img/scene.jpeg" loading="lazy" alt="aerial view of resort property serenity springs" class="gallery" />
+    </div>
+    <div class="fullbleed-image">
+        <img src="img/scene2.jpg" loading="lazy" alt="aerial view of resort property serenity springs" class="gallery" />
+    </div>
+
+    <div class="cuisine" id="dining">
+        <div class="dine-content">
+            <h1>Your Dining Options</h1>
+            <p class="dine-para">
+            <ul class="dine-para">
+                <li>Pizzeria &amp; partnered restaurants &#x27; menus</li>
+                <li>Private gas-grill, cooking supplies &amp; dishes</li>
+                <li>Several area restaurants in driving distance</li>
+            </ul>
+            </p>
+            <h1>Birthday Package</h1>
+            <p class="dine-para">
+                Celebrate another trip around the sun with a cake, birthday hat, chocolate turtle, balloon, and surprise
+                birthday gift bag. Add for $50+tax.
+            </p><br>
+            <a href="#" class="dine-learn">Learn More</a>
+        </div>
+        <div class="cuisine-img">
+            <img src="img/dining.jpg" alt="" class="dine-img">
+        </div>
+    </div>
+
+    <div id="explore" class="section-5">
+        <div class="div-block-72">
+            <h2 class="style-2m animate-in wht">Explore Our CABINS</h2>
+        </div>
+        <div class="div-block-73">
+            <div class="div-block-74">
+                <img src="https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/6167eb65d0d5a60d041e0c7f_6167e3f5dd3fc2e493721fe8_interior.jpeg"
+                    loading="lazy" alt="Channel View Cabins Interior View" class="image-23" />
+                <div class="div-block-75">
+                    <h3 class="heading-22">Channel View</h3>
+                    <div class="text-block-18"></div>
+                    <a href="/cabins?tab=tab-one-1#sekcja-tabsy" class="button-style-1 bg w-button">View details</a>
+                </div>
+            </div>
+            <div class="div-block-74">
+                <img src="https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/634d9e109d88180398a555d6_DJI_0468-min.JPG"
+                    loading="lazy"
+                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 26vw, (max-width: 991px) 27vw, 30vw"
+                    srcset="https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/634d9e109d88180398a555d6_DJI_0468-min-p-500.jpg 500w, https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/634d9e109d88180398a555d6_DJI_0468-min-p-800.jpg 800w, https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/634d9e109d88180398a555d6_DJI_0468-min-p-1080.jpg 1080w, https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/634d9e109d88180398a555d6_DJI_0468-min-p-1600.jpg 1600w, https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/634d9e109d88180398a555d6_DJI_0468-min-p-2000.jpg 2000w, https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/634d9e109d88180398a555d6_DJI_0468-min-p-2600.jpg 2600w, https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/634d9e109d88180398a555d6_DJI_0468-min-p-3200.jpg 3200w"
+                    alt="Lakefront cabins beautiful water fountain serenity springs" class="image-23" />
+                <div class="div-block-75">
+                    <h3 class="heading-22">Lakefront View</h3>
+                    <div class="text-block-18"></div>
+                    <a href="/cabins?tab=tab-two-1#sekcja-tabsy" class="button-style-1 bg w-button">View details</a>
+                </div>
+            </div>
+            <div class="div-block-74">
+                <img src="https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/6165501e273d4830510ea83c_6097c214aa04071f06d69d3f_5edd48ada6554e229bf6d5d1_cabin%2B23%2Binterior%2Bnorthern%2Bexposure%20(1)-min.jpeg"
+                    loading="lazy"
+                    sizes="(max-width: 479px) 100vw, (max-width: 767px) 26vw, (max-width: 991px) 27vw, 30vw"
+                    srcset="https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/6165501e273d4830510ea83c_6097c214aa04071f06d69d3f_5edd48ada6554e229bf6d5d1_cabin%2B23%2Binterior%2Bnorthern%2Bexposure%20(1)-min-p-500.jpeg 500w, https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/6165501e273d4830510ea83c_6097c214aa04071f06d69d3f_5edd48ada6554e229bf6d5d1_cabin%2B23%2Binterior%2Bnorthern%2Bexposure%20(1)-min-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/6165501e273d4830510ea83c_6097c214aa04071f06d69d3f_5edd48ada6554e229bf6d5d1_cabin%2B23%2Binterior%2Bnorthern%2Bexposure%20(1)-min-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/6165501e273d4830510ea83c_6097c214aa04071f06d69d3f_5edd48ada6554e229bf6d5d1_cabin%2B23%2Binterior%2Bnorthern%2Bexposure%20(1)-min-p-2000.jpeg 2000w, https://uploads-ssl.webflow.com/5edd473cc78b8a09d7c0736f/6165501e273d4830510ea83c_6097c214aa04071f06d69d3f_5edd48ada6554e229bf6d5d1_cabin%2B23%2Binterior%2Bnorthern%2Bexposure%20(1)-min.jpeg 2500w"
+                    alt="Pond view Cabins serenity springs" class="image-23" />
+                <div class="div-block-75">
+                    <h3 class="heading-22">Pond View</h3>
+                    <div class="text-block-18"></div>
+                    <a href="/cabins?tab=tab-three-1#sekcja-tabsy" class="button-style-1 bg w-button">View details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="about-img">
+            <img src="img/hotel1.png" alt="" class="about-img">
+        </div>
+        <div class="about-content">
+            <h1>About Serenity Springs in Puerto Rico, Indiana</h1>
+            <p class="about-para">
+                Serenity Springs has been offering cabin stays for over 20 years, catering to couples looking
+                for a private, serene vacation.<br />
+                <br />
+                You won&#x27;t have to travel far to reach this romantic getaway. Located 20 minutes from the
+                Indiana Dunes National Lakeshore, Serenity Springs is a central location for those traveling
+                from Chicago, Indianapolis, Ann Arbor, and Detroit. <br />
+                <br />
+                There&#x27;s no reason to hop on a plane for a beautiful natural setting when you can find
+                exactly what you &#x27;re looking for at Serenity Springs in Indiana. Join us today for some
+                time away from it all.
+            </p>
+            <a href="#" class="about-learn">Learn More</a>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>SERENITY SPRINGS</h1>
+        <p>
+            Serenity Springs features stunning natural landscapes, cozy and well-appointed rental cabins,<br>
+            and a leisure experience unlike any other. <br><br>
+            We are located at Puerto Rico, Indiana.
+        </p>
+        <p>
+            <a href="contact.html" class="foot-contact">Contact Us</a>
+        </p>
+        <div class="foot-social">
+            <p>
+                <a href="#" class="social"><img src="img/instagram.svg" class="social-img"></a>
+                <a href="#" class="social"><img src="img/facebook.svg" class="social-img"></a>
+                <a href="#" class="social"><img src="img/twitter.svg" class="social-img"></a>
+                <a href="#" class="social"><img src="img/linkedin.svg" class="social-img"></a>
+                <a href="#" class="social"><img src="img/github.svg" class="social-img"></a>    
+            </p>
+        </div>
+        <hr>
+        <footer class="footer-index">Designed By &copy;Abhijeet Rai, 2023</footer>
+    </div>
+</body>
+
+</html>
